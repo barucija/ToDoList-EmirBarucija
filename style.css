@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.wholeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.upperPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.mainHeadline {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subHeadline {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.inputFieldComplete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90% !important;
+    width: fit-content;
+
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.editButtonInput {
+    background: none !important;
+    border: none !important;
+    color: #222222 !important;
+    padding: 0 !important;
+}
+
+.input-group-text:hover {
+    background-color: #222222 !important;
+    color: #ffffff !important;
+    border: #222222 !important;
+}
+
+.editButtonInput:hover {
+    background-color: #222222 !important;
+    color: #ffffff !important;
+}
+
+.editButtonInput:focus {
+    box-shadow: none !important;
+}
+
+#toDoList {
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    list-style-type: decimal;
+    text-align: left;
+}
+
+.toDoListContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.toDoItems {
+    padding: 5px 0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #008000;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.deleteItem {
+    margin-left: 15px;
+    background: none !important;
+    color: red !important;
+    padding: 0 !important;
+    border: none !important;
+    margin: 10px 0px;
+    width: fit-content !important;
+}
+
+.deleteItem:focus {
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 650px) {
+    .itemContainer {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .itemContainer {
+        width: 40vw;
+    }
+}
